@@ -86,7 +86,11 @@
 .eyebrow { display: flex; align-items: center; gap: 0.8rem; color: color-mix(in oklab, var(--paper) 65%, transparent); }
 .eyebrow-line { display: inline-block; width: 2.2rem; height: 1px; background: var(--acid); }
 .eyebrow-index { color: var(--pink); }
-.hero-title { max-width: 1000px; margin: 2rem 0 2.5rem; font-size: clamp(4.2rem, 10.5vw, 10rem); font-weight: 700; line-height: 0.82; letter-spacing: -0.085em; }
+.hero-name { max-width: 1100px; margin: 1.2rem 0 0.6rem; font-size: clamp(4.8rem, 13vw, 13rem); font-weight: 700; line-height: 0.78; letter-spacing: -0.09em; text-transform: uppercase; }
+.hero-name-line { display: block; }
+.hero-name-indent { margin-left: 11vw; }
+.hero-name .title-mark { color: var(--acid); }
+.hero-title { max-width: 1000px; margin: 1.5rem 0 2.5rem; font-size: clamp(2.6rem, 6.5vw, 6.2rem); font-weight: 700; line-height: 0.86; letter-spacing: -0.07em; }
 .hero-title-line { display: block; }
 .hero-title-indent { margin-left: 11vw; color: var(--paper); }
 .hero-title em, .contact-heading em, .project-content em { color: var(--acid); font-style: normal; }
