@@ -61,6 +61,10 @@ function Index() {
         <div className="hero-grid-lines" aria-hidden="true" />
         <div className="hero-copy">
           <p className="eyebrow reveal"><span className="eyebrow-line" /> Based in Gujarat, India <span className="eyebrow-index">/ 2026</span></p>
+          <div className="hero-name reveal" aria-label="Pratham Hapani">
+            <span className="hero-name-line">Pratham</span>
+            <span className="hero-name-line hero-name-indent">Hapani<span className="title-mark">.</span></span>
+          </div>
           <h1 className="hero-title reveal">
             <span className="hero-title-line">Building</span>
             <span className="hero-title-line hero-title-indent"><em>the</em> invisible<span className="title-mark">.</span></span>
